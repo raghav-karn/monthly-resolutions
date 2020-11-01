@@ -1,0 +1,172 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+ -----------------------------------------------------------------------------*/
+
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+#header {
+	margin: 0;
+	padding: 8px;
+	display: block;
+}
+
+#main {
+	background: white;
+	width: 600px;
+	padding: 20px;
+	float: left;
+}
+
+#sidebar {
+	text-align: center;
+	background: white;
+	padding: 20px;
+	margin: 0 0 0 10px;
+	width: 300px;
+}
+
+#sidebar {
+  width: 340;
+  float: left;
+  background: #FFF;
+  padding: 25px;
+  border-left: 3px solid #BBB;
+  border-bottom: 3px solid #BBB;
+  margin-right: 10px;
+}
+
+
+
+#footer {
+	/*background: url('../images/notebook.png');*/
+	width: 500px;
+	padding: 8px;
+	font-size: 14;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+ 
+.alignleft {
+	float: left;
+	margin: 0;
+}
+
+h5, h6, h2 {
+	margin: 0 15px 5px 15px;
+}
+
+h1 {
+	margin: 0;
+}
+
+img  {
+	border: 0;
+}
+
+p {
+	font-size: 14px;
+	font-family: Lato;
+}
+
+p.header {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+h1.heading {
+	margin-bottom: 0;
+	font-size: 38px;
+}
+
+/*----------------------------------------------------------------------------- 
+04=FOOTER  
+-----------------------------------------------------------------------------*/
+
+#footer {
+	margin: 0;
+}
+
+/*----------------------------------------------------------------------------- 
+05=SIDEBAR  
+-----------------------------------------------------------------------------*/
+.castig {
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+	color: #ff4500;
+}
+
+
+/*#sidebar {
+	background: white;
+	height: auto;
+	width: 350px;
+	float: right;
+	padding: 25px;
+	margin-left: 15px;
+}*/
+
+.alignright {
+	float: right;
+}
+
+blockquote {    
+    font-size: 20px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 0 0 26px;    
+    position: relative;
+}
+blockquote:before {
+    content: "";
+    border-left: 5px solid gray;
+    position: absolute;
+    bottom: 8px;
+    top: 11px;
+    left: 0;
+    text-align: left;
+}
+
+/*#social {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}*/
